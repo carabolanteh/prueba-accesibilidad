@@ -12,8 +12,8 @@
     <meta property="og:description" content="Reconocido mundialmente como el mejor juego del año">
     <meta property="og:type" content="article">
     <meta property="og:site name" content="Lastofus.com">
-    <meta property="og:url" content="https://jonhks.github.io/prueba-assecibilidad/index.html">
-    <meta property="og:img" content="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSZN7_aLbxSkJXr4Yynxg8hsywpWvslpZ-JUA&usqp=CAU">
+    <meta property="og:url" content="https://carabolanteh.github.io/prueba-accesibilidad/">
+    <meta property="og:img" content="https://upload.wikimedia.org/wikipedia/el/4/4f/TLOU_P2_Box_Art_2.png">
 
     <title>Accesibilidad</title>
 </head>
@@ -25,11 +25,18 @@
 
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo iste eius nesciunt tenetur ad labore maiores fugiat dolore. Nam nemo, rerum voluptate nulla ducimus iste nostrum animi aut voluptates deleniti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo reiciendis est iusto accusamus adipisci laboriosam provident itaque nobis. Dolore, repudiandae et. Est provident ea nobis quisquam rerum mollitia non?</p>
 
-    <img src="https://ep01.epimg.net/elpais/imagenes/2020/07/07/icon/1594107116_991634_1594117068_noticia_normal.jpg" alt="Last of us" width="60%">
+    <figure>
+        <img src="https://ep01.epimg.net/elpais/imagenes/2020/07/07/icon/1594107116_991634_1594117068_noticia_normal.jpg" alt="Last of us" width="60%">
+    </figure>
+    
 
     <script>
         let count=0;
-        let element = document.getElementById("number")
+        let element = document.getElementById("number");
+        setInterval(() =>{
+         element.innerHTML = count;
+         count++;
+     },1000);
     </script>
 </body>
 </html>
